@@ -1765,6 +1765,8 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry,
   image_fetcher::ImageCache::RegisterProfilePrefs(registry);
   site_engagement::ImportantSitesUtil::RegisterProfilePrefs(registry);
   IncognitoModePrefs::RegisterProfilePrefs(registry);
+  registry->SetDefaultPrefValue(policy::policy_prefs::kIncognitoModeAvailability,
+                                base::Value(1));
   invalidation::PerUserTopicSubscriptionManager::RegisterProfilePrefs(registry);
   language::LanguagePrefs::RegisterProfilePrefs(registry);
   login_detection::prefs::RegisterProfilePrefs(registry);

@@ -54,6 +54,7 @@ Restore-BookmarkToolbar-setCurrentFolder.patch
 Add-bookmark-import-export-actions.patch
 Bookmarks-select-all-menu-entry.patch
 Add-an-always-incognito-mode.patch
+Disable-incognito-mode.patch
 Keep-flag-to-allow-screenshots-in-Incognito-mode.patch
 Add-option-to-not-persist-tabs-across-sessions.patch
 Add-a-proxy-configuration-page.patch

@@ -11,7 +11,7 @@ desc: |-
         The <ph name="INCOGNITO_MODE_URL_ALLOWLIST_POLICY_NAME">IncognitoModeUrlAllowlist</ph> policy takes precedence over this policy and can re-enable Incognito mode for specific URLs. When Incognito mode is disabled by this policy when an allowlist is provided, Incognito mode is available only for URLs matching the allowlist, while all other pages are blocked.
 
         Note: On iOS, if the policy is changed during a session, it will only take effect on relaunch.
-default: 0
+default: 1
 example_value: 1
 features:
   dynamic_refresh: false
